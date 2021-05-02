@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title DANCE dil SE Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/logo.png", alt="LOGO")
+                | DANCE dil SE 
+            li #[a(href='/') Home] 
+            li #[a(href='/') About]
+            li #[a(href='/') Services] 
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Contact Us] 
+
+    
+        
+    section#introSection 
+       div.large  WELCOME TO DANCE dil SE DANCE ACADEMY 
+       div.small Eat Sleep Dance Repeat  
+
+    section#missionSection
+      h2  Our Mission
+      div.card
+        h3  DANCE PERFECTION 
+        div.card-box
+            div.card-img
+                img(src="/static/pic.png", alt="ERR LOADING IMG")
+            
+            div.card-content
+                p This Is The Best Dance Academy In Town
+      div.card
+        h3  DANCE THE WAY YOU LIKE 
+        div.card-box
+            div.card-img
+                img(src="/static/logo.png", alt="ERR LOADING IMG")
+            
+            div.card-content
+                p Training Is Given For Any Dance Form
+      div.card
+        h3  EXPERT TEACHING 
+        div.card-box
+            div.card-img
+                img(src="/static/pic.png", alt="ERR LOADING IMG")
+            
+            div.card-content
+                p Expert Level Faculties Are There To Teach Expert Level Skills
+
+    section#sponsorsSection 
+       h2  Our Sponsors 
+       div#sponsors
+          img(src="/static/Skype_logo.jpg", alt="ERR LOADING IMAGE" ,Class = "spimage")
+          img(src="/static/Adani_Group_logo.jpg", alt="ERR LOADING IMAGE",Class = "spimage")
+          img(src="/static/logo1.png", alt="ERR LOADING IMAGE",Class = "spimage")
+          img(src="/static/Nestle.jpg", alt="ERR LOADING IMAGE",Class = "spimage")
+
+    footer#footer 
+      |  COPYWRITE &copy  2019 Sourav'sDANCEAcademy | All Rights Reserved&reg  
+
+
+    script
+      include ../static/index.js
+      

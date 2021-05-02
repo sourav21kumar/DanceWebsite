@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    height: 42px;
+    margin-right: 45px;
+ 
+    
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1) 
+    /* this is the filter property and and the  invert will completly invert the color of the image default value is 0 invert(0 )  and if invert(1 or 100%)*/
+}
+
+#navbar{
+    background-color: #ac1313;
+    padding: 13px 14px;
+    font-family: 'Zen Dots', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    background: black;
+    text-decoration: underline;
+    border: 2px solid white;
+    border-radius: 10px;
+   
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Original Surfer', cursive;
+    font-size: 35px;
+    background: center / cover no-repeat url('/static/bg.jpg');
+   height: 500px;
+   background-color: red;
+}
+
+#introSection div.large{
+        text-shadow: 2px 2px 8px #0e5ef3;
+        font-weight: bold;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 8px #00ff1f;
+    font-style: italic;
+}
+
+#sponsorsSection {
+    height: 349px;
+    background-color: #ee7171c5;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 44px;
+    font-family: 'Bangers', cursive;
+    /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;--------->text shadow property */
+    text-shadow: 2px 2px 8px #FF0000;
+   
+    
+}
+
+#sponsors{
+    height: 140px;
+    max-width: 1325px;
+    margin: 62px auto;
+    align-content: center;
+}
+
+.spimage{
+    height: 80%;
+    margin: 20px 30px;
+}
+
+#missionSection{
+    height: 334px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 88%;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 44px;
+    font-family: 'Bangers', cursive;
+    /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;--------->text shadow property */
+    text-shadow: 2px 2px 8px #FF0000;
+
+}
+
+.card{
+    display: inline-block;
+    border:  2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+    
+}
+
+.card h3{
+    text-align: center;
+    margin: 0px 12px;
+    margin-top: 19px;
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    text-shadow: 2px 2px 8px #ca81ec;
+    
+}
+
+.card-box{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 114px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+   
+   
+}
+
+.card-content{
+    padding: 0px 10px;
+
+}
+
+.card-content p{
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    
+
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+    background-color: black;
+}

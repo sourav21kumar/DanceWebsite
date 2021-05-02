@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0px;
+    text-shadow: 2px 2px 8px rgb(112, 3, 3);
+    font-family: 'Bangers', cursive;
+    font-size: 34px;
+}
+
+.contactDetails{
+       display: flex;
+       flex-direction: column;
+       height: 492px;
+       border: 2px solid rgb(53, 2, 2);
+       border-radius: 8px;
+       align-items: center;
+       width: 40%;
+       margin: auto;
+       margin-top: 49px;
+       margin-bottom: 84px;
+       box-shadow: 23px 19px 10px rgb(58, 1, 1)
+}
+
+/* .contactDetails .formcontact{
+    
+} */
+
+.formcontact{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.myInput{
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    display:block;
+    width: 80%;
+    padding: 9px;
+    margin: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    box-shadow: 5px 5px 2px rgb(58, 1, 1)
+}
+
+.btn{
+    padding: 10px 18px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px rgb(58, 1, 1)
+    
+}

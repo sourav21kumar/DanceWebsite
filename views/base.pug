@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title DANCE dil SE Dance Academy 
+    block style 
+    
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/logo.png", alt="LOGO")
+                | DANCE dil SE 
+            li #[a(href='/home' method='get') Home] 
+            li #[a(href='/') About]
+            li #[a(href='/') Services] 
+            li #[a(href='/') Class Info]
+            li #[a(href='/contact' method='get') Contact Us] 
+
+    block content
+    
+    footer#footer 
+      |  COPYWRITE &copy  2019 Sourav'sDANCEAcademy | All Rights Reserved&reg 
+      

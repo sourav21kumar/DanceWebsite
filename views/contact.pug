@@ -1,0 +1,24 @@
+extends base.pug
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/stylecontact.css
+
+block content 
+    //- | here we will not use the same style.css file becuase this is not good we have to make different stylesheets for different pages
+    h1  Contact Us 
+    div.contactDetails
+        form(action="/submit", method="post" class="formcontact") 
+            input(type="text", class="myInput", name="name", placeholder="Enter Your Name" )
+            input(type="text", class="myInput", name="gender", placeholder="Enter Your Gender" )
+            input(type="text", class="myInput", name="address", placeholder="Enter Your Address" )
+            input(type="number", class="myInput", name="age", placeholder="Enter Your Age" )
+            input(type="phone", class="myInput", name="phone", placeholder="Enter Your Contact Number" )
+            button.btn 
+                | Submit  
+      
+    div
+        | #{message}
+                
+        
