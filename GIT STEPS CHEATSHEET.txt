@@ -1,0 +1,41 @@
+------------THESE ARE THE COMMAND LINES TAHT WE HAVE USE TO CREATE THE GIT REPOSITRY------------
+
+------WHERE I AHVE USED <> ANGULAR BRACKETS INDICATING THAT REPLACE IT WITH THE DESIRD URL WHICH I HAVE MENTIONED INSIDE THE BRACKETS------------
+
+
+--git config --global user.name Sourav
+--git config --global user.email sourav21kumar@gmail.com
+
+1)TO CREATE A .gitignore file
+   ------touch .gitignore
+2) TO INITIALIZE GIT REPOSITRY
+   -------git init
+3) EVERY FILE EXCLUDING THE node_modules COMES TO THE STAGGING AREA
+       -------git add .
+
+ when we did this excluding the node_modules file everything comes to the stagging area node_modules is excluded because we have added to the .gitignore file
+
+4)git commit -m"Initial commit"
+
+5)TO KNOW WHEATHER YOUR WORKING TREE IS CLEAN OR NOT RUN THIS COMMAN---THIS COMMAND IS NOT A PART OF THE PROCESS OF CREATING AND PUSHING FILES TO THE GIT REPOSITRY
+
+ -----------git status
+
+6) git remote add origin git@github.com:sourav21kumar/DanceWebsite.git
+
+7)CERETING OUR SSH KEY  
+------------ssh-keygen -t ed25519 -C "Sourav@sourav21kumar@gmail.com"
+
+ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
+
+8)cat <then here paste the path that we got in the command window> # then a ssh key will appear and then add that key to your github account
+
+9) git remote add origin <ssh url.git>
+
+10) --- git push origin master(now the project ios added to the github)
+
+
+
+-------THESE ARE THE STEPS THAT ARE YOU HAVE TO USE TO UPLOAD TO THE GITHUB------------
+ 
+
