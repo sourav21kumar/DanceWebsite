@@ -43,4 +43,8 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 1) git add --a = (to add all the files to staging area)
 2) git commit -m "Initial Commit" 
 3) git log = (to know about all the commits)
-4) git
+4) rm -rf .git = (it will delete the git repositry)
+5)pwd = (present working directory)
+6) ls = (lists the contents of the present directory)
+7) cd = (change directory command)
+8) git clone <paste the url of the repositry which we want to clone> = (for cloning git repositry)
