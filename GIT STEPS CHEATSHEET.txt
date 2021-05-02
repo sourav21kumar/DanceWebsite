@@ -39,3 +39,8 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 -------THESE ARE THE STEPS THAT ARE YOU HAVE TO USE TO UPLOAD TO THE GITHUB------------
  
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) git add --a = (to add all the files to staging area)
+2) git commit -m "Initial Commit" 
+3) git log = (to know about all the commits)
+4) git
