@@ -48,3 +48,19 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 6) ls = (lists the contents of the present directory)
 7) cd = (change directory command)
 8) git clone <paste the url of the repositry which we want to clone> = (for cloning git repositry)
+
+9) if we want to ignore a particular file format then we have to do inside .gitignore  wehave to write 
+          => *.extension of the file
+
+10)  by default git will not track empty folders
+
+11) if we want to ignore a folder everywhere then we have to write
+             =>directory name/
+
+12) jadi khali bahara se particular directory ku ignore karibara achi then ame lekhiba 
+                 =>/directory name/
+
+13) git diff --- compare the staging area and working directory
+
+14) git diff --staged
+            => compare the previously commited version with the current satged version
