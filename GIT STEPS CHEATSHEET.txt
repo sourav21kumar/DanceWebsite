@@ -99,3 +99,10 @@ this thing we are using because for example if we have added a file  to the .git
 
 6) git log --pretty=format: ""%h --%an
           ==========>here it will show commit hash -- and author name   (TI EXPLORE MORE ABOUT THIS WE WILL EXPLORE MORE IN THE git scm website (not so important))
+
+
+
+
+--------------------------------------------------------------UNSTAGING AND UNMODIFYING FILES IN GIT---------------------------------------------------------------
+
+
