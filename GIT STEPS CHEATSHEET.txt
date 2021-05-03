@@ -47,7 +47,7 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 5)pwd = (present working directory)
 6) ls = (lists the contents of the present directory)
 7) cd = (change directory command)
-8) git clone <paste the url of the repositry which we want to clone> = (for cloning git repositry)
+8) git clone <paste the url of the repositry which we want to clone> <file name that you want to name> = (for cloning git repositry)
 
 9) if we want to ignore a particular file format then we have to do inside .gitignore  wehave to write 
           => *.extension of the file
@@ -64,3 +64,38 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 
 14) git diff --staged
             => compare the previously commited version with the current satged version
+
+-----------HOW TO SKIP STAGING AREA------------
+1) git commit -a -m "here the message you want to write"
+            =>this will directly commit the fils but if we have any untracked file then it will commit those untracked files.
+
+--------------------------MOVING AND RENAME FILES IN GIT-----------------------------------------------
+
+1ST METHOD(manual method) ----rename the file and then use git add command then it will show you have renamed the particular file then you can commit the file
+
+2ND METHOD(command method)----- git mv <the new name that we want to give to the exsiting file > =========> this method will rename and will add the file to the staging area
+
+---------------------------------------------------REMOVING FILE---------------------------------------------------------------
+command = git rm <file or directory name which you want to remove>--this command will remove the file and also add the the file to the staging area
+
+but without using this command if we will manually delete the file then FIRST we have to delete the file and then we have to USE the git add COMMAND then it will delete the file and will stage and commit the file in the staging area----so it is better to use the command 
+
+
+----------------------------FOR NOT TARCKING A FILE------------------------------------------------
+1) git rm --cached <file name that we do not want to track>    ====>this will not delete the file permanently it will only not track the file 
+
+this thing we are using because for example if we have added a file  to the .gitignore file which is previously been tracked by git  then after adding the file to the .gitignore if we change something in that file and if we will run git status then also it will show that that file is modified  ---so here we have added the file to .gitignore but still it is tracking the file  so in order to not track the file so we have to explicitly tell to git that we now do not want to track the file so for that we have to run the command ---git rm --cached <file name that we do not want to track>
+
+
+-------------------git log--------------------------------------------
+1) git log -p (then this will show the git log with the diff that means with who commited and will show what changes are made)
+
+2) git log --stat (it will show the commits in a short way)
+
+3) git log --pretty=short ======>will show the commit in a short way 
+4) git log --pretty=oneline =====>(it wil show the commits in one line)
+ 5) git log --since=n.days "or" week "or" month "or"year
+          where n = number ====>basically this command is to see all the commits in that particular time 
+
+6) git log --pretty=format: ""%h --%an
+          ==========>here it will show commit hash -- and author name   (TI EXPLORE MORE ABOUT THIS WE WILL EXPLORE MORE IN THE git scm website (not so important))
