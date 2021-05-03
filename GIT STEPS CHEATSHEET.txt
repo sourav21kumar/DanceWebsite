@@ -73,7 +73,7 @@ ORIGINAL COMMAND ------ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 
 1ST METHOD(manual method) ----rename the file and then use git add command then it will show you have renamed the particular file then you can commit the file
 
-2ND METHOD(command method)----- git mv <the new name that we want to give to the exsiting file > =========> this method will rename and will add the file to the staging area
+2ND METHOD(command method)----- git mv old_filename new_filename =========> this method will rename and will add the file to the staging area
 
 ---------------------------------------------------REMOVING FILE---------------------------------------------------------------
 command = git rm <file or directory name which you want to remove>--this command will remove the file and also add the the file to the staging area
@@ -105,4 +105,10 @@ this thing we are using because for example if we have added a file  to the .git
 
 --------------------------------------------------------------UNSTAGING AND UNMODIFYING FILES IN GIT---------------------------------------------------------------
 
+1) git restore --staged <file name that you have staged previously but now you do not want to stage>
+            for example====>git restore --staged file.txt    ======>this will remove the file from the staged area which was previously staged
 
+
+----------------------------------UNMODIFY THE FILES-----------------------------------------------------------------
+
+1) git checkout --<file name that you want to restore> ====> this will restore the file to its original content after the commit you have done
