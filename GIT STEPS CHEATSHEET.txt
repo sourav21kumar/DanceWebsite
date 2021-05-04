@@ -112,3 +112,17 @@ this thing we are using because for example if we have added a file  to the .git
 ----------------------------------UNMODIFY THE FILES-----------------------------------------------------------------
 
 1) git checkout --<file name that you want to restore> ====> this will restore the file to its original content after the commit you have done
+
+
+---------------------WORKIN WITH REMOTE REPOSITRIES-----------------------------------------------------------------------
+1) git remote 
+2) git remote  -v
+3)  git remote add origin <url> ==> here origin can be replaced with any name
+
+
+1) git config --global alias.st status====> alias were created to for faster workflow now we can see git status by typing git st====> simillarly some more alias can be done
+
+similarly for unstage file we have created an alias 
+   previously to unsatge a file =====>git restore --staged <file name>
+                       alias ======> git config --global alias.unstage 'restore --staged'
+                         now the command for s=unstage ======> git unstage
