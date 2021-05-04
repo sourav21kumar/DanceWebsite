@@ -134,3 +134,7 @@ similarly for unstage file we have created an alias
 2) git checkout master  ======> this will change the branch (here in the previous code we have created a branch develop and by writing this command we have moved from develop branch to master branch)
 
 3) git branch (is to know what are the branches you have and in which branch you are presently at) 
+
+
+-------------------MERGING BRANCHES IN GIT---------------------------------------
+1) git merge <BRANCH NAME THAT YOU WANT TO MERGE> if using visual studio then it will show the options to resolve merge conflicts by just a click
