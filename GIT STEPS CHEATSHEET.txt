@@ -136,7 +136,7 @@ similarly for unstage file we have created an alias
 3) git branch (is to know what are the branches you have and in which branch you are presently at) 
 
 
--------------------MERGING BRANCHES IN GIT---------------------------------------
+-------------------MERGING BRANCHES IN GIT AND RESLOVING MERGE CONFLICTS IN GIT ---------------------------------------
 1) git merge <BRANCH NAME THAT YOU WANT TO MERGE> if using visual studio then it will show the options to resolve merge conflicts by just a click
 -----------merge branches after comming to the master branch-------------
 git branch -v ===> this will show the last commit in the branches with their commit hash
