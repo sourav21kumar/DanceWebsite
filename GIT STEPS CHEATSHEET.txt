@@ -138,3 +138,10 @@ similarly for unstage file we have created an alias
 
 -------------------MERGING BRANCHES IN GIT---------------------------------------
 1) git merge <BRANCH NAME THAT YOU WANT TO MERGE> if using visual studio then it will show the options to resolve merge conflicts by just a click
+
+git branch -v
+git branch --merged ======> shows all the already merged branches
+git branch --no-merged===========> not merged branches
+
+-----------------------------------------------DELETING BRANCHES----------------------------
+1) git branch -d <BRANCH NAME THAT YOU WANT TO DELETE> ==========> delete the merged branches ---------(if that branch is not merged then it will show an error warning that the branch is not merged) instead if we will use git branch -D <BRANCH NAME THAT YOU WANT TO DELETE>--------(IF NOT MERGED IT WILL DELETE THE BRANCH WITHOUT GIVING ANY ERROR WARNING)
