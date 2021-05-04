@@ -126,3 +126,11 @@ similarly for unstage file we have created an alias
    previously to unsatge a file =====>git restore --staged <file name>
                        alias ======> git config --global alias.unstage 'restore --staged'
                          now the command for s=unstage ======> git unstage
+
+
+----------------------------------------------CREATING AND SWITCHING BRANCHES------------------------------------------------------------------------
+1) git checkout -b develop ====> (-b means make a new branch of master name develop)
+
+2) git checkout master  ======> this will change the branch (here in the previous code we have created a branch develop and by writing this command we have moved from develop branch to master branch)
+
+3) git branch (is to know what are the branches you have and in which branch you are presently at) 
