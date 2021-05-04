@@ -138,7 +138,7 @@ similarly for unstage file we have created an alias
 
 -------------------MERGING BRANCHES IN GIT---------------------------------------
 1) git merge <BRANCH NAME THAT YOU WANT TO MERGE> if using visual studio then it will show the options to resolve merge conflicts by just a click
-
+-----------merge branches after comming to the master branch-------------
 git branch -v ===> this will show the last commit in the branches with their commit hash
 git branch --merged ======> shows all the already merged branches
 git branch --no-merged===========> not merged branches
