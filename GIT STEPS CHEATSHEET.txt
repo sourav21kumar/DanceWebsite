@@ -137,11 +137,34 @@ similarly for unstage file we have created an alias
 
 
 -------------------MERGING BRANCHES IN GIT AND RESLOVING MERGE CONFLICTS IN GIT ---------------------------------------
+
 1) git merge <BRANCH NAME THAT YOU WANT TO MERGE> if using visual studio then it will show the options to resolve merge conflicts by just a click
------------merge branches after comming to the master branch-------------
+-----------merge branches after comming to the master branch  an then commit to merge-------------
 git branch -v ===> this will show the last commit in the branches with their commit hash
 git branch --merged ======> shows all the already merged branches
 git branch --no-merged===========> not merged branches
 
 -----------------------------------------------DELETING BRANCHES----------------------------
 1) git branch -d <BRANCH NAME THAT YOU WANT TO DELETE> ==========> delete the merged branches ---------(if that branch is not merged then it will show an error warning that the branch is not merged) instead if we will use git branch -D <BRANCH NAME THAT YOU WANT TO DELETE>--------(IF NOT MERGED IT WILL DELETE THE BRANCH WITHOUT GIVING ANY ERROR WARNING)
+
+--------------------------------------------------BRANCHING WORKFLOW--------------------------------
+
+1)LONG RUNNING BRANCHES--IT IS THERE UNTIL THE PROJECT IS THERE            2)TOPIC BRANCHES--IT IS THERE FOR SHORT PERIOD OF TIME
+
+
+-------------------------PUSHING BRANCHES TO THE REMOTE-------------------------------
+
+NOTE-------------> STAY IN THAT BRANCH WHICH YOU WANT TO PUSH TO THE REMOTE AND THE PUSH TO THE REMOTE BY  USING THE BELOW COMMAND --------------------------------------- 
+
+1) git push origin <BRANCH NAME THAT YOU WANT TO PUBLISH TO THE REMOTE>=====> for pushing branches to the remote we have to explicitly do this thing by using the command
+         =====> Always keep you working barnch clean while switching to other branch and check git status
+
+2) git push origin <branch name >:<new name to the branch in the remote>  ======. this thing is quit confusing this command will create a new branch in the remote but will track the <original name branch > but in the git bash if we will see the branches by  running teh command <git branches> then it will not show the brtanches that you created not the renamed branch
+
+
+------------------------------------DELETING BRANNCHES FROM REMOTE-----------------------
+1) git push -d origin <BRANCH NANE THAT YOU WANT TO DELETE>
+
+
+
+
